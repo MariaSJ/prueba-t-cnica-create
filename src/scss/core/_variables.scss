@@ -1,0 +1,25 @@
+// fonts
+$mainFont: 'Roboto Slab', serif;
+
+// colors
+$color-font: black; 
+$color-main: #F2F2F2;
+$color-section: #FFFFFF;
+$color-bars: #F2913D;
+$color-nav: #BF2C2C;
+$color-aside: #078C03;
+$color-socialMedia: #874000;
+$color-hover: #E74C3C;
+
+// Main
+
+@media all and (min-width: 1024px){
+    .main{
+     height: 75%;
+     background-color: $color-main;
+     padding-left: 80px;
+     padding-right: 80px;
+     display: flex;
+     flex-direction: row;
+   } 
+ }

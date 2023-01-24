@@ -1,0 +1,27 @@
+@media all and (max-width: 1023px){
+    .aside{
+        display: none;
+    }
+}
+
+@media all and (min-width: 1024px){
+    .aside{
+        height: 100%;
+        width: 600px;
+        padding-top: 20px;
+        background-color: $color-aside;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+
+        &__div{
+            width: 80%;
+            height: 90px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: $color-bars;
+        }
+    }  
+}

@@ -1,0 +1,48 @@
+.section{
+    background-color: $color-section;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__article{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+
+        &--border{
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 20px;
+            border-bottom: 1px solid black;
+        }
+    }
+
+    &__title{
+        font-size: 20px;
+        padding-bottom: 9px;
+    }
+
+    &__text{
+        &--ident{
+            padding-left: 20px;
+            margin-left: 30px;
+            border-left: 4px solid rgb(180, 179, 179);
+        }
+    }
+}
+
+/////////////////////////////////////////
+
+@media all and (min-width: 1024px){
+    .section{
+        justify-content: flex-start;
+
+        &__text{
+            font-size: 15px;
+            
+            &--ident{
+                font-size: 15px;
+            }
+        }
+    }
+}
